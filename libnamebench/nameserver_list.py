@@ -46,7 +46,8 @@ TOO_DISTANT_MULTIPLIER = 4.75
 MAX_NEARBY_SERVERS = 400
 
 # If we can't ping more than this, go into slowmode.
-MIN_PINGABLE_PERCENT = 20
+# Better value according to my 2016 test.
+MIN_PINGABLE_PERCENT = 5
 MIN_HEALTHY_PERCENT = 10
 SLOW_MODE_THREAD_COUNT = 6
 
